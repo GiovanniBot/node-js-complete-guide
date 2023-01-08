@@ -1,19 +1,10 @@
 const express = require('express');
-
+const adminRouter = require('./routes/admin');
+const shopRouter = require('./routes/shop');
 const app = express();
 
-app.use('/users', (req, res, next) => {
-    res.send(
-        `<ul>
-            <li>GiovanniBot</li>
-            <li>laisouz4</li>
-            <li>Josuske</li>
-        </ul>`
-    );
-});
+app.use(express.urlencoded( {extended: true} ));
 
-app.use('/', (req, res, next) => {
-    res.send('<h1>Welcome to this fake site!</h1>');
-});
+app.use(adminRouter, shopRouter);
 
 app.listen(3000);
