@@ -1,4 +1,5 @@
 const express = require('express');
+const rootDir = require('./util/path');
 const path = require('path');
 
 const adminRouter = require('./routes/admin');
@@ -7,7 +8,7 @@ const shopRouter = require('./routes/shop');
 const app = express();
 
 app.use(express.urlencoded( {extended: true} ));
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(rootDir, 'public')));
 
 app.use('/admin', adminRouter);
 app.use(shopRouter);
