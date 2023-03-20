@@ -128,3 +128,5 @@ dist
 
 # App Messages
 .txt
+
+.DS_Store
