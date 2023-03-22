@@ -1,9 +1,1 @@
-[
-  {
-    "id": "123456",
-    "title": "Café miador",
-    "imageUrl": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy80MTY4NjQwL29yaWdpbi5qcGciLCJleHBpcmVzX2F0IjoxNzIwMjAyMTUxfQ.1qWz-nvMZ4D_2aZJDz3X0RCx04Ys_CiJgdNv1gPZdNs/img.jpg?width=980",
-    "description": "vendo gato cantor melódico. Aprox. 4 anos de idade.",
-    "price": "1"
-  }
-]
+[{"id":"0.15601253594444375","title":"cafe miador","imageUrl":"https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy80MTY4NjQwL29yaWdpbi5qcGciLCJleHBpcmVzX2F0IjoxNzIwMjAyMTUxfQ.1qWz-nvMZ4D_2aZJDz3X0RCx04Ys_CiJgdNv1gPZdNs/img.jpg?width=980","description":"gato safado melodico. aprox 4 anos de idade.","price":"1"},{"id":"0.7058561177491731","title":"bmw 320i","imageUrl":"https://fotos.jornaldocarro.estadao.com.br/wp-content/uploads/2022/10/31123549/BMW-Serie-3-2023-1.jpeg","description":"Das ist wirklich ein gut automobil.","price":"30.000"}]

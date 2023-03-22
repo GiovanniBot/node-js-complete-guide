@@ -9,7 +9,7 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   
-  background-color: #999;
+  /* background-color: #999; */
 }
 
 main {
@@ -19,6 +19,10 @@ main {
 
 form {
   display: inline;
+}
+
+.centered {
+  text-align: center;
 }
 
 .main-header {
