@@ -130,3 +130,4 @@ dist
 .txt
 
 .DS_Store
+database.js
